@@ -1,0 +1,22 @@
+.my-class {
+    background: salmon;
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}
+
+#my-id {
+    color: blue;
+    font-size: 52px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.second-class {
+    font-size: 36px;
+}
+
+#another-id {
+    background-color: lightgreen;
+    font-weight: 900;
+}
