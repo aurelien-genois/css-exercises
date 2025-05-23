@@ -7,9 +7,9 @@ html {
 /* grid container */
 .container {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(7, 80px);
-    gap: 10px;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr 5fr 1fr;
+    gap: 15px;
     text-align: center;
     height: 100%;
     padding: 16px;
@@ -28,31 +28,30 @@ html {
 
 .header {
     background-color: #006157;
-    grid-column: 1 / 8;
+    grid-column: 1 / span 2;
 }
 
 .sidebar {
     background-color: #005b94;
-    grid-row: 2 / 7;
-    grid-column: 1 / span 2;
+    grid-row: 2 / 4;
+    grid-column: 1 / 2;
 }
 
 .nav {
     background-color: #642cde;
     grid-row: 2 / 3;
-    grid-column: 3 / 8;
+    grid-column: 2 / 3;
 }
 
 .article {
     background-color: #7e1dc3;
-    grid-row: 3 / 7;
-    grid-column: 3 / 8;
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
 }
 
 .footer {
     background-color: #393f4d;
-    grid-row: 7 / 8;
-    grid-column: 1 / 8;
+    grid-column: 1 / span 2;
 }
 
 .article p {
